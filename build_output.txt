@@ -1,0 +1,42 @@
+
+> build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of d:\Downloads\AI interview9808\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * d:\Downloads\AI interview9808\AI-Intyerview\package-lock.json
+
+▲ Next.js 16.2.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.9s
+  Running TypeScript ...
+  Finished TypeScript in 4.2s ...
+  Collecting page data using 13 workers ...
+  Generating static pages using 13 workers (0/10) ...
+  Generating static pages using 13 workers (2/10) 
+  Generating static pages using 13 workers (4/10) 
+  Generating static pages using 13 workers (7/10) 
+✓ Generating static pages using 13 workers (10/10) in 1068ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/candidates
+├ ƒ /api/curriculum
+├ ƒ /api/health
+├ ƒ /api/interview/[id]
+├ ƒ /api/interview/feedback
+├ ƒ /api/interview/next
+├ ƒ /api/interview/respond
+├ ƒ /api/interview/start
+└ ƒ /api/spec
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
